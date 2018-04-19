@@ -1,0 +1,117 @@
+
+
+<!doctype html>
+<html class="no-js" lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стальстрой</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+  </head>
+  <body>
+    <div id="overlay">
+      <div class="spinner"></div>
+      <img class="spinner__img" src="assets/img/loader-logo.png" alt="">
+    </div>
+        <code>mnav-stack</code>
+        <!-- wrapper убирает горизонтальный скроллбар -->
+        <div class="off-canvas-wrapper">
+        <div class="off-canvas-content" data-off-canvas-content>
+              <header class="mnav__header">
+                    <div class="grid-x">
+                          <div class="medium-2 small-12 cell">
+                                <div class="mnav__logo">
+                                            <a class="logo" href="./index.html">
+                                                  <img class="logo__img" src="assets/img/logo.png" alt="">
+                                            </a>
+                                      
+                                      
+                                      
+                                      
+                                      <div class="mnav-burger hide-for-medium">
+                                            <button class="mnav-burger__inner" type="button"  data-toggle="mnav-canvas">
+                                                  <span class="mnav-burger__icon icon-menu"></span>
+                                            </button>
+                                      </div>
+                                </div>
+                          </div>
+                          <div class="medium-8 cell">
+                            <!-- MAIN MENU -->
+                              <div class="mnav__nav">
+                                <ul id="mnav" class="mnav show-for-medium">
+                                  <li class="mnav__item"><a class="mnav__link"  href="">Home</a></li>
+                                  <li class="mnav__item"><a class="mnav__link"  data-toggle="menu-drop"  href=""><span class="icon-plus2 mnav__icon"></span>Services</a></li>
+                                  <li class="mnav__item"><a class="mnav__link"  href="">Process</a></li>
+                                  <li class="mnav__item"><a class="mnav__link"  href="">Porfolio</a></li>
+                                </ul>
+                              </div>
+                              <ul class="megamenu-pane dropdown-pane bottom" id="menu-drop" data-dropdown data-hover="true" data-hover-pane="true">
+                                    <div class="grid-container mega-container">
+                                    <div class="grid-x grid-margin-x">
+                                          <div class="medium-4 cell">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, tempora, culpa. Obcaecati quasi illum mollitia impedit molestiae dignissimos cum ipsa, amet eligendi perspiciatis quisquam maxime alias est pariatur ullam. Quia!</p>
+                                          </div>
+                                          <div class="medium-4 cell">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, tempora, culpa. Obcaecati quasi illum mollitia impedit molestiae dignissimos cum ipsa, amet eligendi perspiciatis quisquam maxime alias est pariatur ullam. Quia!</p>
+                                          </div>
+                                          <div class="medium-4 cell">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, tempora, culpa. Obcaecati quasi illum mollitia impedit molestiae dignissimos cum ipsa, amet eligendi perspiciatis quisquam maxime alias est pariatur ullam. Quia!</p>
+                                          </div>
+                                    </div>
+                                    </div>
+                              </ul>
+                              <div class="off-canvas position-left" id="mnav-canvas" data-off-canvas data-transition="overlay">
+                                <ul id="mnav" class="mnav mnav--accordion" data-accordion-menu>
+                                  <li class="mnav__item"><a class="mnav__link"  href="">Home</a></li>
+                                  <li class="mnav__item">
+                                    <a class="mnav__link" href="#">Services</a>
+                                    <ul class="mnav">
+                                      <li><a class="mnav__link" href="#">Felatio</a></li>
+                                      <li><a class="mnav__link" href="#">Creamy Felatio</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="mnav__item"><a class="mnav__link"  href="">Process</a></li>
+                                  <li class="mnav__item"><a class="mnav__link"  href="">Porfolio</a></li>
+                                </ul>
+                              </div>
+        
+                            <!-- DROPDOWN PANE -->
+                            <ul class="megamenu-pane dropdown-pane bottom" id="menu-drop" data-dropdown data-hover="true" data-hover-pane="true">
+                                  <div class="grid-container mega-container">
+                                  <div class="grid-x grid-margin-x">
+                                        <div class="medium-4 cell">
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, tempora, culpa. Obcaecati quasi illum mollitia impedit molestiae dignissimos cum ipsa, amet eligendi perspiciatis quisquam maxime alias est pariatur ullam. Quia!</p>
+                                        </div>
+                                        <div class="medium-4 cell">
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, tempora, culpa. Obcaecati quasi illum mollitia impedit molestiae dignissimos cum ipsa, amet eligendi perspiciatis quisquam maxime alias est pariatur ullam. Quia!</p>
+                                        </div>
+                                        <div class="medium-4 cell">
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, tempora, culpa. Obcaecati quasi illum mollitia impedit molestiae dignissimos cum ipsa, amet eligendi perspiciatis quisquam maxime alias est pariatur ullam. Quia!</p>
+                                        </div>
+                                  </div>
+                                  </div>
+                            </ul>
+        
+                          </div>
+                          <div class="medium-2 cell show-for-medium">
+                            <div class="flatnav__knobs">
+                              <a class="knob">Login</a>
+                              <a class="knob">Signup</a>
+                            </div>
+                          </div>
+                    </div>
+              </header>
+        </div>
+        
+        <!-- OFFCANVAS -->
+        
+        </div>
+        
+
+    <script src="assets/js/app.js"></script>
+
+  </body>
+</html>
